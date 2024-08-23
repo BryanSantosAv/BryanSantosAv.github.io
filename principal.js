@@ -11,9 +11,9 @@ var sonidoFondo;
 var estadoPrincipal={
 
 	preload: function(){
-		juego.load.image('fondo', 'img/pokemonfondo.jpg');
-		juego.load.spritesheet('personaje', 'img/charizarsprite.png',64,64);
-		juego.load.audio('sonido', 'sounds/pueblo_paleta.mp3');
+		juego.load.image('fondo', 'pokemonfondo.jpg');
+		juego.load.spritesheet('personaje', 'charizarsprite.png',64,64);
+		juego.load.audio('sonido', 'pueblo_paleta.mp3');
 
 	},
 
